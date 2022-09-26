@@ -27,6 +27,9 @@ export default class App extends Component {
 			<div className="app">
 				<div className="card">
 					<h1 className="heading">{quote}</h1>
+					<button className="button">
+						<span>QUOTE FOR TODAY</span>
+					</button>
 				</div>
 			</div>
 		);
