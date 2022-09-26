@@ -28,7 +28,7 @@ body {
 	flex-direction: column;
 	border-radius: 25px;
 	padding: 2%;
-	box-shadow: 10px 10px 20px;
+	box-shadow: 10px 10px 15px #292929;
 }
 
 .heading {
@@ -36,6 +36,10 @@ body {
 	justify-content: center;
 	align-items: center;
 	font-family: "League Spartan", sans-serif;
+	font-size: large;
+	font-style: italic;
+	height: 582px;
+	line-height: 1.4rem;
 }
 
 .button {
@@ -111,5 +115,9 @@ body {
 	.card {
 		width: 80%;
 		height: 30%;
+	}
+
+	.heading {
+		font-size: x-large;
 	}
 }
